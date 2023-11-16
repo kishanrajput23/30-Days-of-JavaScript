@@ -64,3 +64,13 @@ Sample array: [12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213]
 Expected output: [3223, 546, 455, 345, 234, 213, 122, 98, 84, 64, 23, 12, 9, 4, 1]
 ```
 
+## Challenge 11
+```
+Write a JavaScript program to list the properties of a JavaScript object.
+Sample object:
+var student = {
+name : "David Rayy",
+sclass : "VI",
+rollno : 12 };
+Sample Output: name,sclass,rollno
+```
