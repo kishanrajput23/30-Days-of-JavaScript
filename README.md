@@ -88,6 +88,13 @@ Expected Console Output:
 "14:37:47"
 ```
 
+## Challenge 13
+```
+Problem Statement: Implement a memoization function.
+Description: Write a function that takes a function as its argument and returns a memoized version of the function.
+Solution Approach: Store the function's results for previous inputs and return the stored result for repeated inputs.
+```
+
 ## Challenge 14
 ```
 Write a JavaScript function to concatenate a given string n times (default is 1). Go to the editor
