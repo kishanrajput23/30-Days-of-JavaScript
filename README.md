@@ -6,15 +6,19 @@
 ```
 Write a JavaScript function that reverses a number.
 Sample Data and output:
+
 Example: 
 x = 32243;
+
 Expected Output: 34223
 ```
 
 ## Challenge 2
 ```
 Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word into upper case.
+
 Example string: 'the quick brown fox'
+
 Expected Output: 'The Quick Brown Fox'
 ```
 
@@ -46,39 +50,50 @@ Write a JavaScript program to check a pair of numbers and return true if one of 
 ## Challenge 8
 ```
 Write a JavaScript function to get all possible subsets with a fixed length (for example 2) combinations in an array.  
+
 Sample array : [1, 2, 3] and subset length is 2  
+
 Expected output : [[1, 2], [1, 3], [2, 3]]
 ```
 ## Challenge 9
 ```
 Write a JavaScript function to find the first not repeated character.  
+
 Sample arguments : 'abacddbec'  
+
 Expected output : 'e'
 ```
 
 ## Challenge 10
 ```
 Write a JavaScript function to apply the Bubble Sort algorithm.  
+
 Note : According to wikipedia "Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that works by repeatedly stepping through the list to be sorted, comparing each pair of adjacent items and swapping them if they are in the wrong order".  
+
 Sample array: [12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213]  
+
 Expected output: [3223, 546, 455, 345, 234, 213, 122, 98, 84, 64, 23, 12, 9, 4, 1]
 ```
 
 ## Challenge 11
 ```
 Write a JavaScript program to list the properties of a JavaScript object.
+
 Sample object:
 var student = {
 name : "David Rayy",
 sclass : "VI",
 rollno : 12 };
+
 Sample Output: name,sclass,rollno
 ```
 
 ## Challenge 12
 ```
 Write a JavaScript program to create a clock.
+
 Note: The output will come every second.
+
 Expected Console Output:
 "14:37:42"
 "14:37:43"
@@ -90,14 +105,20 @@ Expected Console Output:
 
 ## Challenge 13
 ```
-Problem Statement: Implement a memoization function.
-Description: Write a function that takes a function as its argument and returns a memoized version of the function.
-Solution Approach: Store the function's results for previous inputs and return the stored result for repeated inputs.
+Problem Statement:
+Implement a memoization function.
+
+Description:
+Write a function that takes a function as its argument and returns a memoized version of the function.
+
+Solution Approach:
+Store the function's results for previous inputs and return the stored result for repeated inputs.
 ```
 
 ## Challenge 14
 ```
 Write a JavaScript function to concatenate a given string n times (default is 1). Go to the editor
+
 Test Data :
 console.log(repeat('Ha!'));
 console.log(repeat('Ha!',2));
@@ -113,9 +134,11 @@ Outputs
 ```
 Problem Description -
 create a string_chop function that takes a string and chop factor(size) and chops out the string into the factor(size) that has been passed
+
 Test Data :
 console.log(string_chop('Scaler'));
 console.log(string_chop('Scaler',2));
+
 ["Scaler"]
 ['Sc' , 'al' ,'er']
 ```
@@ -124,8 +147,34 @@ console.log(string_chop('Scaler',2));
 ```
 Problem Description:  
 Write a JavaScript function named sumArray that takes an array of numbers and returns the sum of all the numbers in the array using the reduce() method.  
-Inputs: An array of numbers.  
-Outputs: A number representing the sum of the array.  
-Hints: The reduce() method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.  
-Solution Approach: Initialize the reduce() method with an initial accumulator value of 0. Then, for each value in the array, add it to the accumulator.  
+
+Inputs:
+An array of numbers.  
+
+Outputs:
+A number representing the sum of the array.  
+
+Hints:
+The reduce() method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.  
+
+Solution Approach:
+Initialize the reduce() method with an initial accumulator value of 0. Then, for each value in the array, add it to the accumulator.  
+```
+
+## Challenge 17
+```
+Problem Description:
+Write a JavaScript function named filterOutOdd that uses the filter() method to filter out odd numbers from an array.
+
+Inputs:
+An array of numbers.
+
+Outputs:
+An array of numbers without odd numbers.
+
+Hints:
+Use the filter() method to create a new array with all elements that pass the test implemented by the provided function.
+
+Solution Approach:
+Use the filter() method and provide a callback that checks if the number is even.
 ```
