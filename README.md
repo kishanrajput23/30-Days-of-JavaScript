@@ -193,3 +193,39 @@ An array of numbers where each number is doubled.
 Hints:  
 The map() method creates a new array with the results of calling a function for every array element.  
 ```
+
+## Challenge 19
+```
+Problem Description:
+Write a JavaScript function named allPositive that checks whether all numbers in a given array are positive using the every() method.
+
+Inputs:
+An array of numbers.
+
+Outputs:
+A boolean value. Return true if all numbers are positive, otherwise false.
+
+Hints:
+The every() method tests whether all elements in the array pass the test implemented by the provided function.
+
+Solution Approach:
+Use the every() method and provide a callback that checks if the number is positive.
+```
+
+## Challenge 20
+```
+Problem Description:
+Write a JavaScript function named findFirstNegative that finds and returns the first negative number in an array using the find() method.
+
+Inputs:
+An array of numbers.
+
+Outputs:
+A number representing the first negative number in the array or undefined if there are no negative numbers.
+
+Hints:
+The find() method returns the value of the first element in the array that satisfies the provided testing function.
+
+Solution Approach:
+Use the find() method and provide a callback that checks if the number is negative.
+```
