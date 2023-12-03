@@ -294,3 +294,12 @@ Write a generator function range that takes two arguments, start and end, and yi
 Solution Approach:  
 Use the function syntax for generator functions and the yield keyword.  
 ```
+
+## Challenge 28
+```
+Description:  
+Create a proxy object that intercepts and logs all property access.  
+
+Solution Approach:  
+Use the Proxy object to create a wrapper around another object.  
+```
